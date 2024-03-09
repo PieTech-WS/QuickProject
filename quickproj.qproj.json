@@ -1,6 +1,15 @@
 {
     "name": "Quick Project",
     "package": "org.cora.quickproj",
-    "version": "0.0.1",
-    ""
+    "version": "qvcs://versions",
+    "author": "2minRain@ctws.apa",
+    "description": "A project manager.",
+    "keywords": ["cora", "qproj"],
+    "repo":"https://github.com/PieTech-WS/QuickProject",
+    "license": "GPLv3",
+    "requires": {
+        "org.python.pypi": {
+            "file": "version-file://requires.txt"
+        }
+    }
 }
