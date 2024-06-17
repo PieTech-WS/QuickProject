@@ -3,8 +3,8 @@ import json
 
 class DStorage:
     def __init__(self, file: str, autoSave: bool):
-        self.datafile = open(file, "w+", encoding="utf-8")
-        self.content: dict = json.load(self.datafile)
+        self.datafile = open(file, "r+", encoding="utf-8")
+        self.content = json.load(self.datafile)
         self.autoSave = autoSave
         
     def autoSaving(self):
